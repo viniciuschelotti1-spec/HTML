@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video controls width="560" height="315" poster="imagens/g.png" autoplay loop> <!--poster é para colocar uma imagem antes do vídeo começar a rodar-->
+        <source src="midia/16181444 1920 1080 30Fps.mp4" type="video/mp4">
+        <!--adicionando mais de uma source que você tiver convertido você pode colocar para ter maior compatibilidade para vários usuários, porém isso adiciona mais peso ao site-->
+        
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=iTi5ayCuqwulIeHl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo Vídeos do Vimeo</h1>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/929670528?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:62%;height:100%;" title="Jude // Short Film (2024)"></iframe></div><script src="https://player.vimeo.com/api/player.js" ></script>
+    
+</body>
+</html>
